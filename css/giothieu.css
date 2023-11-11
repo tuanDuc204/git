@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    font-family: sans-serif;
+    
+}
+header .menu{
+    display: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(119, 161, 197);
+    position: fixed;
+    top: 0;
+    
+}
+header .menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+ 
+}
+header .menu ul li{
+    display: inline;
+    list-style: none;
+    margin: 17px 35px;
+}
+header .menu ul li a{
+   text-decoration: none;
+   color: #fff;
+
+}
+header .banner{
+    width: 100%;
+    background-color: black;
+}
+header .banner img{
+    width: 100%;
+}
+/* main .banner img{
+    width: 100%;
+} */
+
+.row{
+    width: 100%;
+
+}
+.demo{
+    background-color: bisque;
+    min-height: 200px;
+}
+.row1{
+    display: flex;
+    justify-content: space-around;
+    /* background-color:  rgb(119, 161, 197); */
+    margin: 30px 0;
+}
+.row1 img{
+    border: 2px solid #ccc;
+}
+.row2{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    column-gap: 10px;
+    min-height: 200px;
+    margin-left: 115px;
+}
+.row2 .boxL{
+    /* background-color: #333; */
+    /* width: 100%; */
+    display: grid;
+    grid-template-rows: auto auto;
+    row-gap: 10px;
+   
+}
+.row2 .boxR{
+    /* background-color: #972f2f; */
+    /* width: 100%; */
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;  
+    row-gap: 10px;
+
+ 
+}
+main{
+    width: 90%;
+    margin: auto;
+    min-height: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+} 
+main .content{
+    margin-top: 15px;
+}
+main .content h1{
+    color: #FDAF17;
+    font-size: 3vw;
+    text-align: center;
+}
+main>.content ul{
+    margin-top: 10px;
+} 
+main >.content ul li{
+    list-style: none;
+    line-height: 28px;
+}
+
+
+/* lienhe */
+main .lienhe{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    width: 100%;
+    margin-left: 90px;
+    margin-top: 70px;
+ 
+  
+}
+main .colum{
+    margin-top: 15px;
+}
+main .colum h2{
+    color: #FDAF17;
+    font-size: 1.3vw;
+}
+main .colum ul{
+    margin-top: 10px;
+}
+main .colum ul.ketnoi li svg{
+    font-size: 30px;
+    color: #fff;
+}
+main .colum ul li{
+    list-style: none;
+    line-height: 20px;
+}
+main .colum ul li:hover{
+    color: #FDAF17;
+}
+
+/* hỏi đáp */
+main .tieude {
+    text-align: center;
+    margin: 20px 0;
+}
+main .hoidap{
+    width: 90%;
+    min-height: 300px;
+    background-color: #8EACCD;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+main .hoidap form {
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+}
+main .hoidap form .dong {
+    margin: 10px 0;
+}
+main .hoidap form .dong input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+main .hoidap form .nhap {
+        margin-left: 420px;
+    
+}
+main .hoidap form .nhap input{
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+}
+
+/* ft */
+footer{
+    display:  flex;
+    justify-content: space-around;
+    background-color:   #333 ;
+    min-height: 250px;
+}
+footer .colum{
+    margin-top: 15px;
+}
+footer .colum h2{
+    color: #FDAF17;
+    font-size: 1.3vw;
+}
+footer .colum ul{
+    margin-top: 10px;
+}
+footer .colum ul.ketnoi{
+    display: flex;
+    justify-content: center
+}
+footer .colum ul.ketnoi li{
+    display: inline;
+    padding-left: 20px;
+}
+footer .colum ul.ketnoi li{
+    display: inline;
+ 
+
+}
+footer .colum ul.ketnoi li svg{
+    font-size: 30px;
+    color: #fff;
+}
+footer .colum ul li{
+    list-style: none;
+    line-height: 20px;
+}
+footer .colum ul li a{
+    text-decoration: none;
+    font-size: 1.2vw;
+    color: #fff;
+}
+footer .colum ul li a:hover{
+    text-decoration: none;
+    font-size: 1.2vw;
+    color: #FDAF17;
+}
+.copyright{
+    text-align: center;
+}
